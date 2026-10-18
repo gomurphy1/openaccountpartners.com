@@ -78,7 +78,9 @@ li { margin-bottom: 0.4em; }
 .wordmark {
   font-family: var(--serif); font-size: 1.3rem; color: var(--ink);
   letter-spacing: -0.01em; white-space: nowrap;
+  display: inline-flex; align-items: center; gap: 11px;
 }
+.wordmark .mark { width: 28px; height: 28px; flex: none; }
 .wordmark:hover { text-decoration: none; color: var(--ink); }
 .wordmark em { font-style: italic; color: var(--harbor); }
 .nav { display: flex; gap: clamp(14px, 2.6vw, 32px); align-items: center; }
